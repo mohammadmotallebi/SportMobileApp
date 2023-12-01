@@ -1,0 +1,99 @@
+{
+  "expo": {
+    "name": "Sportsbook Betting",
+    "slug": "SportsbookBettingApp",
+    "version": "0.0.23",
+    "orientation": "portrait",
+    "icon": "./assets/applestore-icon-sba-1024sq.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#70ADBE"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0,
+      "url": "https://u.expo.dev/48504632-ee55-4e25-b520-32dc6b424f82"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "scheme": "com.sportsbookbettingapp.sportsbookbettingapp",
+    "ios": {
+      "supportsTablet": false,
+      "googleServicesFile": "./GoogleService-Info.plist",
+      "buildNumber": "1.0.6",
+      "bundleIdentifier": "com.accesspasscorp.sportsbookbettingapp",
+      "associatedDomains": [
+        "https://hq1.appsflyer.com/adrevenue-config/oauth/save/facebook/id1625749888?code=AQCayhQXMC8CY5FqdLXaIA1dSpAe3gPWwKMsp-LvjmAFW68rZDM0c7nUB2dHvUtmUuFAW0FYu-Rt5ZMQKgxT-ULW6oDXnaYvWakZfziKdWX2BtyHMntJpYkIVpVk-jBGK5y4sLK8IPgH01ZNnk63FSxtta3hbiAu_q22Xaks1fbLMiYlCoWgM2bUfEQbc2kZA2585qU2-BYrty7pBFXtUViPEknifXrMZk_CRB4ifPzU0El_DSslBiit17FJDuF-OE8Zt3tEd-ONL9fRHTJpztjMa2kZGzjQGkTpXpPbPgL7oXyBuTaBMVR0z1VkDEQHSUDEwyleYTDeO8N53VvnrOnIZ81PLvdq7rjXyuqOAnn_Ny_nYzr71zUcV_ULFJ5INpjZtXcfgOCEuE48KuJjv6XKi4z3_-YdGCqPbzOkPHpSfw#_=_"
+      ],
+      "runtimeVersion": {
+        "policy": "sdkVersion"
+      }
+
+    },
+    "android": {
+      "permissions": [],
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/android-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.sportsbookbettingapp.sportsbookbettingapp",
+      "intentFilters": [
+        {
+          "action": "VIEW",
+          "data": [
+            {
+              "scheme": "https",
+              "host": "rallyad.onelink.me/bSM2/e3stwbi8",
+              "pathPrefix": "/bSM2"
+            }
+          ],
+          "category": [
+            "BROWSABLE",
+            "DEFAULT"
+          ]
+        },
+        {
+          "action": "VIEW",
+          "data": [
+            {
+              "scheme": "my-own-scheme"
+            }
+          ],
+          "category": [
+            "BROWSABLE",
+            "DEFAULT"
+          ]
+        }
+      ],
+      "googleServicesFile": "./google-services.json",
+      "versionCode": 20,
+      "runtimeVersion": "1.0.27"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "config": {
+        "firebase": {
+          "apiKey": "AIzaSyDjiEkt8tJTP94bABm639UbMdwfSfpF8TU",
+          "measurementId": "G-98R9V56MTB"
+        }
+      }
+    },
+    "plugins": [
+      [
+        "react-native-appsflyer",
+        {
+          "shouldUseStrictMode": true
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "48504632-ee55-4e25-b520-32dc6b424f82"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    }
+  }
+}
